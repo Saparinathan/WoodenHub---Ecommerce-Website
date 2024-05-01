@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- favicon -->
+   <link rel="shortcut icon" href="Assets/Logo&imgs/favicon.ico" type="image/x-icon">
+    <title>Page-4</title>
+    <!--Add Icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"  >
+    <!-- Add Css File -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Adding Fontawesome Icons -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/bcff664381.js" crossorigin="anonymous"></script>
+     <!--Adding Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+ <!-- Nav Bar -->
+ <nav class="navbar">
+    <h1><span style="color: rgba(185, 122, 5, 0.748);">W</span>ooden <span style="color: rgba(185, 122, 5, 0.748);">H</span>ub</h1>
+    <ul class="nav-links">
+        <li class="nav-bar-link"><a  href="index.html" >Home</a></li>
+        <li class="nav-bar-link"><a href="shop.html">Shop</a></li>
+        <li class="nav-bar-link"><a href="about.html">About</a></li>
+        <li class="nav-bar-link"><a href="contact.html">Contact</a></li>
+    </ul>
+    <!-- Adding Nav Bar Toggle For Responsive in Mobile -->
+    <div class="nav-togg">
+        <i class="fa-solid fa-bars" onclick="ShowNavBar()"></i>
+    </div>
+ </nav>
+ <!-- Side Nav-Bar -->
+ <div class="side-nav">
+    <p>
+        <i class="fa-solid fa-xmark" onclick="CloseNavBar()"></i>
+    </p>
+    <ul class="sidenav-links">
+        <li class="sidenav-bar-link"><a href="index.html" >Home</a></li>
+        <li class="sidenav-bar-link"><a href="shop.html">Shop</a></li>
+        <li class="sidenav-bar-link"><a href="about.html">About</a></li>
+        <li class="sidenav-bar-link"><a href="contact.html">Contact</a></li>
+    </ul>
+ </div>
+<!--Search Bar Start -->
+<form class="product-search">
+    <input type="text" id="search" placeholder="Search Proudcts i.e. Bed,Sofa,etc.">
+    <i class="fa-solid fa-magnifying-glass"></i>
+</form>
+<!--Search Bar End -->
+<!-- Product Section Start -->
+<div class="shop-container-1" id="shop-container-1">
+    <!-- Box-1 -->
+    <div class="box">
+        <div class="box-img">
+            <img src="Assets/Bed/Bed-04.jpg" width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Bed</p>        
+        </div>
+        <span id="price">&#8377 16,499</span>
+       <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div>
+     <!-- Box-2 -->
+     <div class="box">
+        <div class="box-img">
+            <img src="Assets/Bed/Bed-03.jpg" width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+          <p>Bed</p>       
+        </div>
+        <span id="price">&#8377 10,999</span>
+        <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div>
+    
+    <!-- Box-3 -->
+    <div class="box">
+        <div class="box-img">
+            <img src="Assets/Dining table/DT-09.jpg"  width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+          <p>Dining Table</p>          
+        </div>
+        <span id="price">&#8377 14,799</span>
+        <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div> 
+  
+        <!-- Box-4 -->
+    <div class="box">
+        <div class="box-img">
+            <img src="Assets/Dressing table/DrT-05.jpg" width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>Dressing Table</p>        
+        </div>
+        <span id="price">&#8377 15,789</span>
+        <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div>
+    <!-- Box-5 -->
+    <div class="box">
+        <div class="box-img">
+            <img src="Assets/Lounge chairs/LC-02.jpg" width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>Lounge Chair</p>          
+        </div>
+        <span id="price">&#8377 16,499</span>
+        <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div>      
+    <!-- Box-6 -->
+    <div class="box">
+        <div class="box-img">
+            <img src="Assets/Sofa/Sofa-07.jpg" width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+           <p>Sofa</p>    
+        </div>
+        <span id="price">&#8377 13,789</span>
+        <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div> 
+      <!-- Box-7 -->
+    <div class="box">
+        <div class="box-img">
+            <img src="Assets/Bed/Bed-02.jpg" width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Bed</p>         
+        </div>
+        <span id="price">&#8377 28,499</span>
+       <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div>
+     <!-- Box-8 -->
+     <div class="box">
+        <div class="box-img">
+            <img src="Assets/Cofee table/CT-08.jpg" width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          <p>Coffee Table</p>       
+        </div>
+        <span id="price">&#8377 10,449</span>
+        <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div>
+    
+    <!-- Box-9-->
+    <div class="box">
+        <div class="box-img">
+            <img src="Assets/Dining table/DT-07.jpg" width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Dining Table</p>      
+        </div>
+        <span id="price">&#8377 18,799</span>
+        <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div> 
+  
+        <!-- Box-10-->
+    <div class="box">
+        <div class="box-img">
+            <img src="Assets/Study table/ST-05.jpg" width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+           <p>Study Table</p>        
+        </div>
+        <span id="price">&#8377 7,499</span>
+        <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div>
+    <!-- Box-11-->
+    <div class="box">
+        <div class="box-img">
+            <img src="Assets/Wardrobe/W-05.jpg" width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+             <p>Wardrobe</p>       
+        </div>
+        <span id="price">&#8377 22,499</span>
+        <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div>      
+    <!-- Box-12-->
+    <div class="box">
+        <div class="box-img">
+            <img src="Assets/Sofa/Sofa-03.jpg" width="200px" height="200px">
+        </div>
+        <div class="content">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+             <p>Sofa</p>        
+        </div>
+        <span id="price">&#8377 15,789</span>
+        <button class="button"><a href="#" class="link">Shop Now</a></button>
+    </div> 
+</div>
+ <!-- Page Section Start -->
+<div class="pages">
+     <button class="page"><a href="shop.html">1</a></button>
+     <button class="page"><a href="page2.html">2</a></button>
+     <button class="page"><a href="page3.html">3</a></button>
+     <button class="page"><a href="">4</a></button>
+</div>
+ <!-- Page Section End-->
+<!-- Product Section End-->
+ <!-- News Letter Sectioin  Start-->
+ <hr><div class="news-letter">
+    <h2>Join Our News Letter</h2>
+    <p>Signup for our email newsletter to get exclusive updates about our products</p>
+    <div>
+        <input type="email" class="search" placeholder="Enter Your Email Address">
+    </div>
+    <div>
+        <button>Subscribe</button>
+    </div>
+</div><hr>
+<!-- News Letter Section End -->
+ <!-- Footer Start -->
+<hr><footer class="sectio-p1">
+    <div class="col">
+        <img class="logo" src="Assets/Logo&imgs/Logo.png" width="140px" height="40px">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>06 Chennai Main-Road,Chennai,TamilNadu,India</p>
+        <p><strong>Phone: </strong>+91 22 2333 4444 / (+91) 22 5555 6665 </p>
+        <p><strong>Hours: </strong>10.00 - 7.00, Mon-Sun</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="foot-icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+<!-- About Coloumn -->
+    <div class="col">
+       <h4 class="alt">About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+    </div>
+<!-- My Account Coloumn -->
+    <div class="col">
+        <h4 class="alt">My Account</h4>
+        <a href="#">Sing In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My wishlist</a>
+        <a href="#">Track My order</a>
+        <a href="#">Help</a>
+    </div>
+    <!-- Install App Coloumn -->
+    <div class="col-install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="Assets/Logo&imgs/App-Store.png" width="170px" height="48px">
+            <img src="Assets/Logo&imgs/Play-Store.png" width="170px" height="48px">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="Assets/Logo&imgs/Pay.png" width="224px" height="32px">
+    </div>
+   <!-- copyright -->
+   <div class="copyright">
+    <p>© 2024, WoodenHub - Furniture Store</p>
+   </div>
+</footer> 
+<!-- Footer End -->
+
+
+<!-- Add Javascript -->
+ <script src="index.js"></script>
+ <script src="shop.js"></script>

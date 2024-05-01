@@ -1,0 +1,790 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-color:white;
+    .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nav-links {
+  display: flex; 
+ column-gap: 20px;
+}
+.nav-bar-link{
+    list-style-type: none;
+}
+.nav-bar-link a{
+text-decoration: none;  
+color:#4c4a49f7 ;  
+}
+.nav-bar-link a:hover{
+   text-decoration: underline ;
+}
+/* Show&Hide toggle bar & contents for responsive design */
+/* Hide toggle bar in big screen */
+.nav-togg{
+   display:none;
+   cursor: pointer;
+}
+/* Side Navbar Start */
+.side-nav{
+    background-color:#4c4a49f7 ;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    transition: 2s;
+    padding: 20px;
+    color: white;
+    z-index: 1;
+}
+.side-nav p{
+    text-align: right;
+    cursor: pointer;
+}
+.sidenav-bar-link{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.sidenav-bar-link a{
+    text-decoration: none;
+    color: white;   
+}
+.sidenav-bar-link a:hover{
+     text-decoration: underline;
+     color:rgb(4, 4, 70);
+}
+/* Side Nav Bar End */
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.header img{
+ width: 300px;
+ height: 300px;
+}
+.header-button{
+   padding: 10px 20px 10px 20px;
+   margin-top: 10px;
+   background-color: #4c4a49f7;
+   color: white;
+   cursor: pointer;
+}
+ .header-button:hover{
+    color: #000;
+    background-color: rgba(185, 122, 5, 0.749);
+ }
+ /* Header End */
+
+/*Features Section Start*/
+.services{
+    padding: 10px 8% 20px;
+}
+.service-container{
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+   align-items: center;
+   gap:  0.90rem;
+   margin-top: 30px;
+   
+}
+.service-container.icons{
+   position: relative;
+   overflow: hidden;
+   border-radius: 10px;
+   cursor: pointer;
+  
+}
+.icons i{
+    font-size: 30px;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: black;
+}
+.icons h3{
+    margin-left: 5px;
+}
+.icons p{
+    margin-left: 5px;
+}
+/* Features Section End */
+
+/* New Arrival Section Start & Best Seller Start*/
+.new-arrival{
+    padding: 20px 8.5% 120px;
+    margin-top: 20px;
+}
+.heading{
+    text-align: center;
+   margin-bottom: 25px;
+}
+.heading h3{
+ font-size: 30px;
+ text-transform: uppercase;
+ font-weight: 500;
+ color:black;
+ text-shadow: 0px 1px 1px rgb(102, 101, 101);
+}
+.heading span{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: black;
+    text-shadow: 0px 1px 1px rgb(102, 101, 101);
+}
+.shop-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box{
+    width: 200px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 25px;
+}
+.stars{
+    color: goldenrod;
+   }
+   .content h3{
+    font-size: 20px;
+    font-weight: 100;
+    color: #4c4a49f7;
+}
+#price{
+    font-size: 20px;
+    color: rgba(185, 122, 5, 0.748);
+}
+.button{
+    margin-left: 134px;
+    margin-bottom: 20px;
+    background-color: #4c4a49f7;
+    color: #fff;
+}
+.button a{
+    background-color: #4c4a49f7;
+    color: #fff;
+}
+.button a:hover{
+    color: #000;
+    background-color: #b97a05bf;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.view-all{
+    margin-top: 30px;
+}
+.view-all a{
+    background-color: #4c4a49f7;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.view-all a:hover{
+    color:#000 ;
+    background-color:#b97a05bf ; 
+}
+/* New Arrival Section End & Best Seller End*/
+
+/* News-letter Section Start */
+.news-letter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.news-letter h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: black;
+}
+.news-letter p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #4c4a49f7;
+}
+.news-letter input{
+    padding: 11px;
+    width: 900px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+.news-letter button{
+    margin-bottom: 35px;
+    padding: 11px;
+    width: 190px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius:5px ;
+}
+/* News-letter Section End */
+
+/* Footer Section Start */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 50px;
+} 
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer .col .alt{
+    margin-left: 10px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin: 10px;
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .col-install{
+    margin-top: 50px;
+}
+footer .col-install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+footer .col-install img{
+    margin: 10px 0 15px 0;
+}
+footer .follow i:hover,
+footer a:hover{
+    color: rgba(185, 122, 5, 0.748);
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+/* Footer Section End */
+
+/* Shop Section Start */
+
+.product-search{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    border: 3px solid black;
+    margin-top: 25px;
+    margin-left: 80px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.product-search input:focus{
+    outline: none;
+}
+.fa-solid.fa-magnifying-glass{
+   font-size: 18px;
+}
+.shop-container-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 100;
+    color: #4c4a49f7;
+}
+/* Shop Section End */
+
+/* Page Section Start */
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.page{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:#040446 ;
+    cursor: pointer;
+}
+.page:hover{
+    background-color: #b97a05bf;
+    color: black;
+}
+.page a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.page a:hover{
+    color: black;
+}
+/* Page Section End */
+
+/* About Us Section Start */
+.about-header{
+    font-size: 30px;
+    background-color: #4c4a49f7;
+    color: white;
+    height: 130px;
+    text-align: center;
+}
+.about-header h1{
+  padding-top: 20px;
+}
+#span{
+    color: #d7951bbf;
+}
+.about-us{
+    background-color: white;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.about-text h1{
+   font-size: 35px;
+   font-weight: 500;
+   text-align: center;
+   margin-bottom: 15px;
+}
+.about-text p{
+    font-size: 17px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about-service{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.about-service i{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #b97a05bf;
+}
+.about-service h4{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-service p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.what-we-offer h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px; 
+}
+.offer-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+   justify-content: center;
+   margin: 38px;
+}
+.chair-box{
+    background-color: #cdaa7d;
+    border: 2px solid #4c4a49f7;
+    width: 175px;
+    height: 175px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5.2px 10.4px 10.4px hsl(0deg 0% 0% / 0.34);
+}
+.chair-box i{
+    color: #fff8dc;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 5px;   
+}
+.chair-box h4{
+    color: #8b6914;  
+    font-size: 29px;
+    margin-top: 7px;   
+}
+.chair-box p{
+    color: #8b6914;
+    font-size: 28px;
+    margin-top: 7px;   
+}
+.bed-box{
+    background-color: #cdaa7d;
+    border: 2px solid #4c4a49f7;
+    width: 175px;
+    height: 175px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5.2px 10.4px 10.4px hsl(0deg 0% 0% / 0.34);
+}
+.bed-box i{
+    color: #fff8dc;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 5px;   
+}
+.bed-box h4{
+    color: #8b6914;
+    font-size: 29px;
+    margin-top: 7px;   
+}
+.bed-box p{
+    color: #8b6914;
+    font-size: 28px;
+    margin-top: 7px;   
+}
+.sofa-box{
+    background-color: #cdaa7d;
+    border: 2px solid #4c4a49f7;
+    width: 175px;
+    height: 175px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5.2px 10.4px 10.4px hsl(0deg 0% 0% / 0.34);
+}
+.sofa-box i{
+    color: #fff8dc;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 5px;    
+}
+.sofa-box h4{
+    color: #8b6914;
+    font-size: 29px;
+    margin-top: 7px;   
+}
+.sofa-box p{
+    color: #8b6914;
+    font-size: 28px;
+    margin-top: 7px;   
+}
+.door-box{
+    background-color: #cdaa7d;
+    border: 2px solid #4c4a49f7;
+    width: 175px;
+    height: 175px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5.2px 10.4px 10.4px hsl(0deg 0% 0% / 0.34);
+}
+.door-box i{
+    color: #fff8dc;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: 5px; 
+
+}
+.door-box h4{
+    color: #8b6914;
+    font-size: 29px;
+    margin-top: 7px;   
+}
+.door-box p{
+    color: #8b6914;
+    font-size: 28px;
+    margin-top: 7px;   
+}
+.mile-stone{
+   background-color: #4c4a49f7;
+  color: white;
+}
+.mile-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin: 25px;
+    justify-content: center;
+}
+.project{
+    margin: 20px;
+    padding: 20px;
+}
+.project i{
+    font-size: 25px;
+    margin-left: 19px;
+    margin-bottom: 9px;
+}
+.project h4{
+    font-size: 30px;
+   margin-bottom: 9px;
+}
+.project p{
+    font-size: 17px;
+   margin-bottom: 9px;
+}
+.design{
+    margin: 20px;
+    padding: 20px;
+}
+.design i{
+    font-size: 25px;
+    margin-left: 19px;
+    margin-bottom: 9px;
+}
+.design h4{
+    font-size: 30px;
+   margin-bottom: 9px;
+}
+.design p{
+    font-size: 17px;
+   margin-bottom: 9px;
+}
+.team{
+    margin: 20px;
+    padding: 20px;
+}
+.team i{
+    font-size: 25px;
+    margin-left: 19px;
+    margin-bottom: 9px;
+}
+.team h4{
+    font-size: 30px;
+   margin-bottom: 9px;
+}
+.team p{
+    font-size: 17px;
+   margin-bottom: 9px;
+}
+.clients{
+    margin-top: 20px;
+    padding: 20px;
+}
+.clients i{
+    font-size: 25px;
+    margin-left: 19px;
+    margin-bottom: 9px;
+}
+.clients h4{
+    font-size: 30px;
+   margin-bottom: 9px;
+}
+.clients p{
+    font-size: 17px;
+   margin-bottom: 9px;
+}
+.review-main-text{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.review-main-text span{
+    color: #8b6914;
+}
+.review-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px;
+    gap: 150px;
+}
+.review-box{
+    width: 193px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5.2px 10.4px 10.4px hsl(0deg 0% 0% / 0.34);
+}
+.review-box h3{
+    font-size: 27px;
+    padding: 8px;
+}
+.review-box p{
+    font-size: 17px;
+    padding: 8px;
+}
+.review-star{
+    font-size: 16px;
+    color: #b97a05bf;
+    padding: 8px;
+    
+}
+
+/* About Us Section End */
+
+/* Contact Section Start */
+.contact-header{
+    font-size: 30px;
+    background-color: #4c4a49f7;
+    color: white;
+    height: 130px;
+    text-align: center;
+}
+.contact-header h1{
+    padding-top: 20px;
+  }
+ .contact-header span {
+    color: #d7951bbf;
+ }
+ .contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .contact-details .details{
+    width: 40%;
+ }
+ .contact-details .details span,
+ #form-details form span{
+    font-size: 12px;
+ }
+ .contact-details .details h2,
+ #form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+ }
+ .contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+ }
+ .contact-details .details li{
+   list-style: none;
+   display: flex;
+   padding: 18px 0;
+   gap: 12px;
+ }
+ .contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+ }
+ .contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+ }
+ .contact-details .map{
+    width: 55%;
+    height: 400px;
+    margin-top: 14px;
+ }
+ .contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+ }
+ #form-details{
+    border: 1px solid #4c4a49f7;
+    padding: 50px;
+    margin: 28px;
+ }
+ #form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+ #form-details form input,
+ #form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #4c4a49f7;
+ }
+ .form-button{
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+   margin-bottom: 8px;
+    cursor: pointer;
+    background-color: #088178;
+    color: #fff;
+ }
+/* Contact Section End */
+
+/* Add Media Queries */
+/* For Responsive Design */
+@media screen and (max-width:760px){
+    .nav-togg{
+        display: block;
+    }
+   .nav-bar-link a{
+    display: none;
+   }  
+    /* Make Header Image Resposive */
+    .header img{
+        width: 200px;
+        height: 200px; 
+    }
+    /* Make Service Section Resposive in All Devices */
+    .service-container{
+        grid-template-columns: 1fr;
+    }
+   /* Make Input Section Responsive */
+    .news-letter input{
+        width: 300px;
+    }
+    /* Make Search Bar Responsive */
+    .product-search{
+        width: 280px;
+    }
+    /* Make About Us Seciton Responnsive */
+    .about-us img{
+        display: none;
+    }
+    /* Make Contact Us Section Responsive */
+    .contact-details .map{
+        width: 46%;
+        height: 280px;
+     }
+     .contact-details .map iframe{
+        width: 98%;
+        height: 98%;
+     }
+}
